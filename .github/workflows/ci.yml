@@ -23,4 +23,4 @@ jobs:
       run-lint: true
       run-clean-up: true
       environment-variables: 'GRADLE_BUILD_OPTIONS=-x test'
-      debug-mode: true
+      debug-mode: false
