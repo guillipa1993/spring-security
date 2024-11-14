@@ -22,4 +22,5 @@ jobs:
       run-upload-coverage: true
       run-lint: true
       run-clean-up: true
-      environment-variables: ''
+      environment-variables: 'JACOCO_ENABLED=false'
+      debug-mode: true
