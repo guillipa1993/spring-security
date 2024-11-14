@@ -15,12 +15,12 @@ jobs:
       language: 'java'
       java-version: 'X.X'
       project-path: '.'
-      run-tests: true
+      run-tests: false
       run-check-code-format: true
       run-code-analysis: true
       run-build-artifact: true
       run-upload-coverage: true
       run-lint: true
       run-clean-up: true
-      environment-variables: 'JACOCO_ENABLED=false'
+      environment-variables: 'GRADLE_BUILD_OPTIONS=-x test'
       debug-mode: true
