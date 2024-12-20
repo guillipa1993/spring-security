@@ -24,6 +24,8 @@ jobs:
       run-code-analysis: true
       run-lint: true
       run-clean-up: true
+      debug-mode: false
+      run-tests: false
       environment-variables: 'GRADLE_BUILD_OPTIONS=-x test'
     secrets:
       AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
