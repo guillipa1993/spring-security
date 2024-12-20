@@ -20,11 +20,8 @@ jobs:
       build-configuration: ''
       additional-install-commands: ''
       build-command: ''
-      run-tests: true
       run-check-code-format: true
       run-code-analysis: true
-      run-build-artifact: true
-      run-upload-coverage: true
       run-lint: true
       run-clean-up: true
       environment-variables: 'GRADLE_BUILD_OPTIONS=-x test'
